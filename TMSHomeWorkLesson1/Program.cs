@@ -7,7 +7,7 @@ string name = Console.ReadLine();
 Console.WriteLine("Введите вашу дату рождения (дд.мм.гггг):");
 string birthdate = Console.ReadLine();
 
-Person person = new(name, birthdate);
+Person person = new(name, birthdate); // Commit2
 
 Console.WriteLine($"Ваши данные: {person.Name}, дата рождения: {person.Birthdate}");
 Console.ReadKey(); // Commit1
