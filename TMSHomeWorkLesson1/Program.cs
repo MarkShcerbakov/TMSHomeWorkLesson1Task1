@@ -10,4 +10,4 @@ string birthdate = Console.ReadLine();
 Person person = new(name, birthdate);
 
 Console.WriteLine($"Ваши данные: {person.Name}, дата рождения: {person.Birthdate}");
-Console.ReadKey();
+Console.ReadKey(); // Commit1
