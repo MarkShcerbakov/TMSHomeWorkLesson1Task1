@@ -5,7 +5,7 @@ Console.WriteLine("Homework after lesson 1 in TMS school.");
 Console.WriteLine("Введите ваше ФИО:");
 string name = Console.ReadLine();
 Console.WriteLine("Введите вашу дату рождения (дд.мм.гггг):");
-string birthdate = Console.ReadLine();
+string birthdate = Console.ReadLine(); // Commit 4
 
 Person person = new(name, birthdate); // Commit2
 
